@@ -280,11 +280,11 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-heading text-xl mb-1">ADDRESS</h3>
-                    <p className="text-muted-foreground">
-                      Unit 8B, Whittington Business Park<br />
-                      Park Green, Whittington<br />
-                      Oswestry SY11 4ND
-                    </p>
+              <p className="text-muted-foreground">
+                Unit 6B, Whittington Business Park<br />
+                Park Green, Whittington<br />
+                Oswestry SY11 4ND
+              </p>
                     <a 
                       href={googleMapsUrl} 
                       target="_blank" 
