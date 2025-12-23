@@ -342,18 +342,12 @@ const Index = () => {
                 <p className="text-muted-foreground mb-6">
                   Give us a call to discuss your vehicle's needs or get a quote.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a href={`tel:${phoneNumber}`}>
-                    <Button variant="hero" size="lg" className="w-full sm:w-auto">
-                      <Phone className="w-5 h-5" />
-                      Call Now
-                    </Button>
-                  </a>
-                  <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
-                    <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                      <MapPin className="w-5 h-5" />
-                      Get Directions
-                    </Button>
+                <div className="flex items-center justify-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
+                    <Phone className="w-6 h-6 text-primary" />
+                  </div>
+                  <a href={`tel:${phoneNumber}`} className="font-heading text-2xl md:text-3xl text-foreground hover:text-primary transition-colors">
+                    07938 673309
                   </a>
                 </div>
               </div>
