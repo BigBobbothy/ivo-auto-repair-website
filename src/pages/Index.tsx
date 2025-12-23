@@ -81,19 +81,16 @@ const Index = () => {
               Honest, reliable car repairs from experienced mechanics. Family-run garage serving Whittington and the surrounding areas.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${phoneNumber}`}>
-                <Button variant="hero" size="xl" className="w-full sm:w-auto">
-                  <Phone className="w-5 h-5" />
-                  Call 07938 673309
-                </Button>
-              </a>
-              <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
-                <Button variant="heroOutline" size="xl" className="w-full sm:w-auto">
-                  <MapPin className="w-5 h-5" />
-                  Get Directions
-                </Button>
-              </a>
+            <div className="flex items-center gap-4 bg-card/80 backdrop-blur-sm rounded-xl px-6 py-4 border border-border w-fit">
+              <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
+                <Phone className="w-6 h-6 text-primary" />
+              </div>
+              <div>
+                <p className="text-sm text-muted-foreground">Call us today</p>
+                <a href={`tel:${phoneNumber}`} className="font-heading text-2xl md:text-3xl text-foreground hover:text-primary transition-colors">
+                  07938 673309
+                </a>
+              </div>
             </div>
 
             {/* Quick Info */}
@@ -139,12 +136,13 @@ const Index = () => {
           </div>
           
           <div className="text-center mt-12">
-            <a href={`tel:${phoneNumber}`}>
-              <Button variant="hero" size="lg">
-                <Phone className="w-5 h-5" />
-                Get a Quote
-              </Button>
-            </a>
+            <div className="inline-flex items-center gap-3 bg-card/80 backdrop-blur-sm rounded-xl px-6 py-4 border border-border">
+              <Phone className="w-5 h-5 text-primary" />
+              <span className="text-muted-foreground">Questions? Call us:</span>
+              <a href={`tel:${phoneNumber}`} className="font-heading text-xl text-foreground hover:text-primary transition-colors">
+                07938 673309
+              </a>
+            </div>
           </div>
         </div>
       </section>
