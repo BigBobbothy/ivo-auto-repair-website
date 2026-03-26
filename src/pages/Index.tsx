@@ -1,6 +1,6 @@
 import { Phone, MapPin, Star, Clock, Wrench, Settings, Car, Shield, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-garage.jpg";
+import logoImage from "@/assets/ivo-logo.webp";
 
 const Index = () => {
   const phoneNumber = "07938673309";
@@ -53,14 +53,19 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroImage})` }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/70" />
+        <div className="absolute inset-0 bg-background" />
         
         <div className="container relative z-10 py-20">
-          <div className="max-w-2xl animate-fade-up">
+          <div className="flex flex-col items-center text-center animate-fade-up">
+            {/* Logo */}
+            <div className="mb-8">
+              <img 
+                src={logoImage} 
+                alt="Ivo Auto Repair Logo" 
+                className="w-72 md:w-96 lg:w-[500px] drop-shadow-[0_0_30px_hsl(0_72%_51%/0.4)]"
+              />
+            </div>
+
             {/* Trust Badge */}
             <div className="inline-flex items-center gap-2 bg-card/80 backdrop-blur-sm rounded-full px-4 py-2 mb-6 border border-border">
               <div className="flex">
@@ -77,7 +82,7 @@ const Index = () => {
               IN OSWESTRY
             </h1>
             
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl">
+            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl mx-auto">
               Honest, reliable car repairs from experienced mechanics. Family-run garage serving Whittington and the surrounding areas.
             </p>
             
