@@ -14,7 +14,7 @@ const Index = () => {
     { icon: Shield, title: "Brake Systems", description: "Pads, discs, and complete brake overhauls" },
     { icon: Settings, title: "Clutches & Timing Belts", description: "Expert clutch and timing belt replacement" },
     { icon: Wrench, title: "Servicing", description: "Full and interim services to manufacturer specs" },
-    { icon: Car, title: "Welding & Exhausts", description: "Custom welding and exhaust repairs" },
+    { icon: Car, title: "AC Refill", description: "Air conditioning regas and repair services" },
     { icon: Settings, title: "Diagnostics", description: "Advanced fault finding and computer diagnostics" },
   ];
 
