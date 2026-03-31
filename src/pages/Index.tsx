@@ -329,15 +329,13 @@ const Index = () => {
             <div className="space-y-6">
               <div className="bg-secondary/50 rounded-xl h-64 overflow-hidden border border-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2418.5!2d-3.0355!3d52.8505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDUxJzAxLjgiTiAzwrAwMicwNy44Ilc!5e0!3m2!1sen!2suk!4v1234567890"
+                  title="Ivo Auto Repair location"
+                  src="https://www.google.com/maps?q=Ivo+Auto+Repair,+Whittington,+Oswestry&z=15&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
-                  allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Ivo Auto Repair Location"
-                  className="opacity-80"
                 />
               </div>
               
