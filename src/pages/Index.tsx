@@ -4,8 +4,8 @@ import logoImage from "@/assets/ivo-logo.webp";
 
 const Index = () => {
   const phoneNumber = "07938673309";
-  const address = "Unit 8B, Whittington Business Park, Park Green, Whittington, Oswestry SY11 4ND";
-  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+  const address = "Unit 6B, Whittington Business Park, Park Green, Whittington, Oswestry SY11 4ND";
+  const googleMapsUrl = "https://www.google.com/maps/dir/?api=1&destination=Ivo+Auto+Repair,+Whittington,+Oswestry";
 
   const services = [
     { icon: Wrench, title: "Car Repairs", description: "Complete vehicle repairs for all makes and models" },
