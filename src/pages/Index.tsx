@@ -19,10 +19,10 @@ const Index = () => {
   ];
 
   const reviews = [
-    { name: "James H.", text: "Brilliant service! Fixed my car quickly and at a fair price. Highly recommend.", rating: 5 },
-    { name: "Sarah M.", text: "Honest, reliable, and professional. The team really knows their stuff.", rating: 5 },
-    { name: "David L.", text: "Best garage in Oswestry. They've looked after my cars for years now.", rating: 5 },
-    { name: "Emma T.", text: "Fantastic work on my brakes. Great communication throughout.", rating: 5 },
+    { name: "Toni Peneva", text: "Excellent mechanic — honest, professional, and very reliable. He is always explaining everything clearly, fixed the problem quickly, and the price is always fair. It's hard to find someone you can trust with your car, but I would definitely recommend him to anyone.", rating: 5 },
+    { name: "Emily Williams", text: "Cannot fault Ivo. So professional, not just that but he genuinely cares and would never ever rip anyone off, you don't get many people like him anymore. He's such a lovely lovely man, top bloke who knows his stuff. Couldn't recommend any more if I tried. Definitely travel if you're in the Shropshire area. 10/10", rating: 5 },
+    { name: "Carl Ellis", text: "This guy is the most genuine honest and best mechanic I've ever come across. I would never go anywhere else now and I recommend everyone else to use him. Compared to the main popular garages around Oswestry this man is a lot more thorough and cheaper and works harder. Absolute hero.", rating: 5 },
+    { name: "Rachel Howell", text: "Ivo is a truly amazing man, so caring, so accommodating and professional. He is what I would say a rare person in this day and age. Not only did he fix my car but he made sure I was OK, warm enough, offered a hot drink and kept telling me not to worry. Ivo definitely knows his stuff inside and out. He was my hero today.", rating: 5 },
   ];
 
   return (
