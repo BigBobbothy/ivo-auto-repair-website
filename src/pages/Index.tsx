@@ -204,10 +204,9 @@ const Index = () => {
                   ))}
                 </div>
                 <p className="text-muted-foreground">
-                  "Absolutely brilliant service. Honest, friendly and very reasonably priced. 
-                  Wouldn't go anywhere else now!"
+                  "Fantastic service, fast and very reasonably priced, highly recommended!"
                 </p>
-                <p className="text-sm text-primary mt-4">— Local Customer</p>
+                <p className="text-sm text-primary mt-4">— Viktoriya Watson</p>
               </div>
             </div>
           </div>
