@@ -159,7 +159,7 @@ const Index = () => {
             <div className="animate-fade-up">
               <span className="text-primary font-semibold text-sm uppercase tracking-wider">About Us</span>
               <h2 className="font-heading text-4xl md:text-5xl mt-2 mb-6">
-                LOCAL MECHANICS<br />
+                LOCAL MECHANIC<br />
                 <span className="text-gradient">YOU CAN TRUST</span>
               </h2>
               <p className="text-muted-foreground mb-6">
