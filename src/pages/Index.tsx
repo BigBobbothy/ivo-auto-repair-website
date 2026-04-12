@@ -274,6 +274,20 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+
+              <div className="bg-gradient-card p-6 rounded-xl border border-border">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                  </div>
+                  <div>
+                    <h3 className="font-heading text-xl mb-1">EMAIL</h3>
+                    <a href="mailto:ivoautorepair@gmail.com" className="text-primary text-lg hover:underline">
+                      ivoautorepair@gmail.com
+                    </a>
+                  </div>
+                </div>
+              </div>
               
               <div className="bg-gradient-card p-6 rounded-xl border border-border">
                 <div className="flex items-start gap-4">
