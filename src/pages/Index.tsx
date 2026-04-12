@@ -359,7 +359,7 @@ const Index = () => {
                   Book an appointment online or give us a call to discuss your vehicle's needs.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-                  <a href="https://calendly.com/ivoautorepai" target="_blank" rel="noopener noreferrer">
+                  <a <a href="https://calendly.com/ivoautorepair" target="_blank" rel="noopener noreferrer"> target="_blank" rel="noopener noreferrer">
                     <Button variant="hero" size="lg">
                       <Clock className="w-5 h-5" />
                       Book Online
