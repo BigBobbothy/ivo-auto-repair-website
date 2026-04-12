@@ -356,17 +356,15 @@ const Index = () => {
               <div className="bg-gradient-card p-8 rounded-xl border border-border text-center">
                 <h3 className="font-heading text-2xl mb-4">READY TO BOOK?</h3>
                 <p className="text-muted-foreground mb-6">
-                  Give us a call to discuss your vehicle's needs or get a quote.
+                  Book an appointment online or give us a call to discuss your vehicle's needs.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
-                      <Phone className="w-5 h-5 text-primary" />
-                    </div>
-                    <a href={`tel:${phoneNumber}`} className="font-heading text-xl md:text-2xl text-foreground hover:text-primary transition-colors">
-                      07938 673309
-                    </a>
-                  </div>
+                  <a href="https://calendly.com/ivoautorepai" target="_blank" rel="noopener noreferrer">
+                    <Button variant="hero" size="lg">
+                      <Clock className="w-5 h-5" />
+                      Book Online
+                    </Button>
+                  </a>
                   <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="lg">
                       <MapPin className="w-5 h-5" />
