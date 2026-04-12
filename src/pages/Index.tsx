@@ -365,10 +365,10 @@ const Index = () => {
                       Book Online
                     </Button>
                   </a>
-                  <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
+                  <a href={`tel:${phoneNumber}`}>
                     <Button variant="outline" size="lg">
-                      <MapPin className="w-5 h-5" />
-                      Get Directions
+                      <Phone className="w-5 h-5" />
+                      Call to Book
                     </Button>
                   </a>
                 </div>
