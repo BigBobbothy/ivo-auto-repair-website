@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import logoImage from "@/assets/ivo-logo.webp";
 
 const Index = () => {
-  const phoneNumber = "07938673309";
+  const phoneNumber = "07936673309";
   const address = "Unit 6B, Whittington Business Park, Park Green, Whittington, Oswestry SY11 4ND";
   const googleMapsUrl = "https://www.google.com/maps/dir/?api=1&destination=Ivo+Auto+Repair,+Whittington,+Oswestry";
 
@@ -93,7 +93,7 @@ const Index = () => {
               <div>
                 <p className="text-sm text-muted-foreground">Call us today</p>
                 <a href={`tel:${phoneNumber}`} className="font-heading text-2xl md:text-3xl text-foreground hover:text-primary transition-colors">
-                  07938 673309
+                  07936 673309
                 </a>
               </div>
             </div>
@@ -145,7 +145,7 @@ const Index = () => {
               <Phone className="w-5 h-5 text-primary" />
               <span className="text-muted-foreground">Questions? Call us:</span>
               <a href={`tel:${phoneNumber}`} className="font-heading text-xl text-foreground hover:text-primary transition-colors">
-                07938 673309
+                07936 673309
               </a>
             </div>
           </div>
@@ -269,7 +269,7 @@ const Index = () => {
                   <div>
                     <h3 className="font-heading text-xl mb-1">PHONE</h3>
                     <a href={`tel:${phoneNumber}`} className="text-primary text-lg hover:underline">
-                      07938 673309
+                      07936 673309
                     </a>
                   </div>
                 </div>
@@ -392,7 +392,7 @@ const Index = () => {
               © 2024 Ivo Auto Repair. Whittington, Oswestry. All rights reserved.
             </p>
             <a href={`tel:${phoneNumber}`} className="text-primary hover:underline">
-              07938 673309
+              07936 673309
             </a>
           </div>
         </div>
